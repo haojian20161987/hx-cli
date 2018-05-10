@@ -1,0 +1,18 @@
+const mycanvasdata = {};
+const mycanvasdata2 = {
+    "nodeList": {
+        "node-1517040891394": { "id": "canvas-1-1", "title": "组件_1_1", "nodeKey": "node-1517040891394", "dataOrder": "1", "baseId": "1-1", "style": "left: 364px; top: 117px", "draggable": true, "linkedPortName": { "top": [], "right": ["link-1517040901640"], "bottom": [], "left": [] }, "linkKey": { "link-1517040901640": true }, "index": 0, "status": "" },
+        "node-1517040892803": { "id": "canvas-1-2", "title": "组件_1_2", "nodeKey": "node-1517040892803", "dataOrder": "2", "baseId": "1-2", "style": "left: 556px; top: 173px", "draggable": true, "linkedPortName": { "top": [], "right": ["link-1517040904770"], "bottom": [], "left": ["link-1517040901640"] }, "linkKey": { "link-1517040901640": true, "link-1517040904770": true }, "index": 1, "status": "" },
+        "node-1517040894969": { "id": "canvas-2-2", "title": "组件_2_2", "nodeKey": "node-1517040894969", "dataOrder": "4", "baseId": "2-2", "style": "left: 820px; top: 234px", "draggable": true, "linkedPortName": { "top": [], "right": ["link-1517040907457"], "bottom": [], "left": ["link-1517040904770"] }, "linkKey": { "link-1517040904770": true, "link-1517040907457": true }, "index": 2, "status": "" },
+        "node-1517040897347": { "id": "canvas-3-2", "title": "组件_3_2", "nodeKey": "node-1517040897347", "dataOrder": "6", "baseId": "3-2", "style": "left: 1100px; top: 203px", "draggable": true, "linkedPortName": { "top": [], "right": ["link-1517040955019"], "bottom": [], "left": ["link-1517040907457"] }, "linkKey": { "link-1517040907457": true, "link-1517040955019": true }, "index": 3, "status": "" },
+        "node-1517040952289": { "id": "canvas-3-2", "title": "组件_3_2", "nodeKey": "node-1517040952289", "dataOrder": "6", "baseId": "3-2", "style": "left: 1252px; top: 233px", "draggable": true, "linkedPortName": { "top": [], "right": [], "bottom": [], "left": ["link-1517040955019"] }, "linkKey": { "link-1517040955019": true }, "index": 4, "status": "" }
+    },
+    "linkList": {
+        "link-1517040901640": { "drawing": false, "linkKey": "link-1517040901640", "config": {}, "startPort": { "nodeKey": "node-1517040891394", "portName": "right", "nodeWidth": 85, "nodeHeight": 75, "x": 449, "y": 154 }, "stopPort": { "nodeKey": "node-1517040892803", "portName": "left", "nodeWidth": 85, "nodeHeight": 75, "x": 531, "y": 210 }, "renderIng": false, "path": { "x": 556, "y": 210 } },
+        "link-1517040904770": { "drawing": false, "linkKey": "link-1517040904770", "config": {}, "startPort": { "nodeKey": "node-1517040892803", "portName": "right", "nodeWidth": 85, "nodeHeight": 75, "x": 641, "y": 210 }, "stopPort": { "nodeKey": "node-1517040894969", "portName": "left", "nodeWidth": 85, "nodeHeight": 76, "x": 795, "y": 272 }, "renderIng": false, "path": { "x": 820, "y": 272 } },
+        "link-1517040907457": { "drawing": false, "linkKey": "link-1517040907457", "config": {}, "startPort": { "nodeKey": "node-1517040894969", "portName": "right", "nodeWidth": 85, "nodeHeight": 76, "x": 905, "y": 272 }, "stopPort": { "nodeKey": "node-1517040897347", "portName": "left", "nodeWidth": 85, "nodeHeight": 75, "x": 1075, "y": 240 }, "renderIng": false, "path": { "x": 1100, "y": 240 } },
+        "link-1517040955019": { "drawing": false, "linkKey": "link-1517040955019", "config": {}, "startPort": { "nodeKey": "node-1517040897347", "portName": "right", "nodeWidth": 85, "nodeHeight": 75, "x": 1185, "y": 240 }, "stopPort": { "nodeKey": "node-1517040952289", "portName": "left", "nodeWidth": 85, "nodeHeight": 76, "x": 1227, "y": 271 }, "renderIng": false, "path": { "x": 1252, "y": 271 } }
+    }
+};
+
+export { mycanvasdata }

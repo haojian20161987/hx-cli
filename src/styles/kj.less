@@ -1,0 +1,348 @@
+   //移动端主流的尺寸：768,991,1200   PC端主流的尺寸：1366*768,1440*900,1920*1080，大屏幕尺寸：2560*1440
+   
+   /*-----------------------------------------1440---------------------------------------------*/
+   body {
+       width:100vw;
+       height: 100vh;
+       overflow: hidden;
+   }
+   @media screen and (max-width:1440px){
+    .myheader{
+        height:80px;  padding-left: 30px;         
+        &-text1 {  font-size: 23px; }
+        &-text2 {  font-size: 16px; }
+    }
+    // 左侧菜单的
+    .list_Slider {
+        height: calc(~"100vh - 80px");
+        .titleMenu{ font-size:16px;line-height: 49px; }
+        .ivu-menu-submenu-title{font-size:15px;}
+        .ivu-menu-item{font-size:14px;}
+    }
+    /***********************   通用样式 / 公共样式  ***************************************/
+    .title {font-size: 14px;padding: 14px 16px;}
+    .stepTitle{ width:1000px;font-size: 17px;  }
+    .ivu-table-wrapper { width: 1155px; margin-left: 45px; margin-top: 28px;} 
+    .btn{ font-size:13px;} 
+    .stepSpan{font-size:14px;}  
+    .btns{font-size:12px;} 
+    .btn3{font-size:12px;} 
+    .stepBtn{padding: 8px 12px;font-size:13px;}
+    .stepCon{width:1080px;}
+    .stepConSpan{font-size:13px;}
+    /***********************   列表首页  ***************************************/ 
+    .test-div{
+        height: 100%;
+        background-image: url("../../static/img/bg_s.png");
+        .logo { background: url("../../static/img/logo_s.png") no-repeat; }
+        .bg_contain{
+             background: url("../../static/img/bgLine_s.png") no-repeat;
+             span{font-size:20px; width: 160px; height: 160px;line-height:150px;}
+             span:hover{ width:160px; height:160px; line-height:150px; }
+             .rowEach{margin:0 100px 0 126px;}
+
+            }
+        .allRow{margin-top:23%;}    
+    }
+    /***********************   数据引接  ***************************************/     
+    // 数据引接的外场飞机逐号表样式
+    .list_yinjie {   
+        .btns_child{font-size: 16px;}              
+    }
+    /***********************   数据治理  ***************************************/   
+     //数据治理的样式
+    .list_zhili{
+        .stepSelect{font-size:14px;}
+        .ivu-checkbox-wrapper{font-size:14px;}
+        .stepBtn{padding: 8px 12px;font-size:13px;}
+        .stepCon{width:1080px;}
+        .stepConSpan{font-size:13px;}
+        .ivu-table-wrapper { width: 1175px;}
+    }
+     /***********************   数据分析  ***************************************/   
+     .list_fenxi{
+        .treeCard{width:1000px;}
+     }
+  
+    /***********************   数据中台  ***************************************/  
+    //数据中台的样式
+    .list_zhongtai{ .moxing{font-size:14px;} }
+    //模态框样式
+    .spanCol{font-size:14px}
+    .jsqx{ .ivu-table-wrapper { width: 880px;} }
+    .spanModal{ 
+        // .ivu-table th, .ivu-table td{white-space: nowrap}
+        .ivu-table-wrapper { width: 1030px;} 
+    }
+    
+}
+/*-----------------------------------------1920---------------------------------------------*/
+@media screen and (min-width:1441px) and (max-width:1920px){
+    .myheader{
+        height:100px;        
+        &-text1 {  font-size: 27px; }
+        &-text2 {  font-size: 18px; }
+    }
+    // 左侧菜单的
+    .list_Slider {
+            //height: 850px; 
+            height: calc(~"100vh - 100px");
+            .titleMenu{  font-size:17px;line-height: 48px; }
+            .ivu-menu-submenu-title{font-size:16px;}
+            .ivu-menu-item{font-size:16px;}
+    }
+    /***********************   通用样式 / 公共样式  ***************************************/
+    .title {font-size: 16px;padding: 14px 16px;}
+    .stepTitle{ width:1300px;font-size: 17px; }
+    .ivu-table-wrapper { width: 1500px; margin-left: 45px; margin-top: 28px;}
+    .btn{ font-size:14px;}  
+    .btn3{ font-size:14px;}  
+    .stepSpan{font-size:15px;}
+    .ivu-table-header{font-size:15px;}
+    .ivu-table-tbody{font-size:14px;}
+    .btns{font-size:13px;}
+    .stepSpan{ p{font-size:15px;}}
+    .stepCon{width:1420px;}
+    .stepBtn{padding: 12px 20px;font-size:15px;}
+    .stepConSpan{font-size:15px;}
+    /***********************   列表首页  ***************************************/ 
+    .test-div{
+        height: 100%;
+        background-image: url("../../static/img/bg_m.png");
+        .logo { background: url("../../static/img/logo_m.png") no-repeat; }
+        .bg_contain{ 
+            background: url("../../static/img/bgLine_m.png") no-repeat;
+            span{font-size:25px; width: 185px; height: 185px;line-height:175px; }
+            span:hover{ width:185px; height:185px; line-height:175px; }
+            .rowEach{margin:0 106px 0 125px;}
+    
+        }
+        .allRow{margin-top:17%;}
+    }
+     /***********************   数据引接  ***************************************/  
+     // 数据引接的外场飞机逐号表样式
+    .list_yinjie {   
+        .btns_child{font-size: 16px;}       
+    }
+    /***********************   数据治理  ***************************************/  
+    //数据治理的样式
+    .list_zhili{
+        .stepSelect{font-size:15px;}
+        .ivu-checkbox-wrapper{font-size:15px;}
+        // .ivu-table-wrapper { width: 1540px;}
+    }
+    /***********************   数据分析  ***************************************/   
+    .list_fenxi{
+        .treeCard{width:1300px;}
+     }
+  
+    /***********************   数据中台  ***************************************/ 
+    //数据中台的样式
+    .list_zhongtai{
+         .moxing{font-size:15px;} 
+         
+    }
+    //模态框样式
+    .spanCol{font-size:15px}
+    .jsqx{.ivu-table-wrapper { width: 1220px; margin-left: 45px; margin-top: 28px;}}
+    .spanModal{.ivu-table-wrapper { width: 1400px; margin-left: 45px; margin-top: 28px;}}
+    
+}
+/*-----------------------------------------2560---------------------------------------------*/
+@media screen and (min-width:1921px){
+    .myheader{
+        height:130px;      
+        &-text1 {  font-size: 40px; }
+        &-text2 {  font-size: 26px; }
+    }
+}
+
+/*-----------------------------------------局部样式---------------------------------------------*/
+
+/***********************   通用样式 / 公共样式  ***************************************/
+#app {
+font-family:'微软雅黑','宋体', 'Arial Negreta', 'Arial Normal', 'Arial';
+-webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale;  text-align: center;  color: #2c3e50; margin: 0 auto;
+height: 100%;
+width: 100%;  
+} 
+.title {text-align: left;color: #4d4d4d; background: #fff }
+.stepTitle{
+   color: #4d4d4d; margin: 80px 0 0 12%; text-align: left;
+   border-bottom:1px solid #E0E0E0;padding-bottom: 10px;
+}  
+// .btns{margin: 30px 0 0 55%;}
+.btns2{margin: 30px 0 0 17px}
+.btns3{margin: 30px 0 0 17px;}
+.ivu-table-wrapper{background: transparent}
+// 质量评价样式
+.rowBtn{margin-top:15px;text-align:left;}
+.stepBtn{display: inline-block;background: #003664;color: #fff;border-radius: 6px;}
+.stepCon{display:inline-block;margin-left:20px;background:#fff;padding:12px 20px;border-radius:8px;}
+.stepConSpan{margin-left:23px;margin-right:10px;color:#4d4d4d}
+.stepConSpan1{margin-left:48px;}
+//.ivu-select{width:110px;}
+.ivu-table-header thead tr th{background: #009ddb;color:#fff}
+/***********************   引接、治理、分析、中台头部、左侧样式   ***************************************/ 
+.myheader {
+    background: -webkit-linear-gradient(left,#002543,#003663,#003c6e);
+    background: -moz-linear-gradient(left,#002543,#003663,#003c6e);
+    background: linear-gradient(left,#002543,#003663,#003c6e); 
+    &-text1{ color: #FFFFFF;  } 
+    &-text2{  color: #FFFFFF; font-style: normal;  font-weight: normal; line-height: 30px; } 
+}
+
+
+// 左侧菜单的
+.list_Slider {  
+// background: -webkit-linear-gradient(top,#001f39,#00213c,#002748);
+// background: -moz-linear-gradient(top,#001f39,#00213c,#002748);
+// background: linear-gradient(top,#001f39,#00213c,#002748);
+background:  #001f39;
+.titleMenu { height: 49px;  color: #fff; background: #001f39;  width:100%; }
+.ivu-menu-item-group-title{text-align:left;padding-left: 34px; font-size: 16px;}
+.ivu-menu-light { background: #001f39; color: #aaa;  width:100.6% !important;}
+.ivu-menu-item{color:#aaa;}
+.ivu-menu-vertical .ivu-menu-item:hover, .ivu-menu-vertical .ivu-menu-submenu-title:hover { background: #002e54;}
+.ivu-menu-submenu{border-top: 1px solid #333;}
+.ivu-menu-submenu:last-child{border-bottom:1px solid #333}
+}
+/***********************   列表页样式   ***************************************/
+.test-div {
+width: 100%;  padding-left: 20px; padding-right: 20px;
+margin-bottom: 10px; overflow: hidden;overflow-y: hidden; background-color: #fff;
+.logo {height:40px; margin-top: 30px; }
+.bg_contain {    
+    height:900px;
+    span{
+      display:inline-block;
+      background:#01477a;
+    //   background:#023154;
+      border:1px solid #005694;
+      color:#fff;
+      box-shadow:#074da4 0 0 44px;    
+      margin-left: 0px;
+      margin-top: 0px;
+      border-radius: 8px;
+    }
+    span:hover{
+      border:1px solid #003e71;
+      background:#023154;
+      box-shadow:#074da4  0 0 44px;
+      border-radius: 8px;
+      color:#b3cadb
+    }
+  .title_bg { 
+    height: 160px;
+    // background: url("../../static/img/text.png") no-repeat 110px 54px;
+  }
+}
+}
+/***********************   数据引接样式   ***************************************/
+
+//数据引接的外场飞机逐号表样式
+.list_yinjie {
+    .btns{margin: 30px 0 0 55%;}
+    .btns_child{margin-right:40px;background: transparent;  border: none;color: #525252;padding:10px 20px;}
+    .ivu-table-header thead tr th {  background: #2b85e4; color: #fff }
+    .stepSpan{
+        margin-left:-10%;margin-top:50px;text-align: left;  width: 1000px; margin-left:36%;
+        p{text-align: left;  width: 1000px;     margin: 15px 0 45px 0;}
+    }
+    
+    // .ivu-table-header{.ivu-table-cell{white-space: nowrap;  text-overflow: clip;}} 
+    .ivu-table th, .ivu-table td{white-space: nowrap}
+    .btn{  position: fixed;right:10%;top:70%;}
+    
+}
+/***********************   数据治理样式   ***************************************/
+.list_zhili {
+    //数据治理的数据校核/译码转换样式
+    .stepTitle{border-bottom:none;margin:55px 0 0 4% }
+    .stepSelect{margin-left:56%}
+    .btn{  position: fixed;right:12%;top:90%;}
+    .btn2{  position: fixed;right:20%;top:90%;}
+    .btns{margin: 30px 0 0 55%;}
+    .ivu-checkbox-group {margin:62px 70% 0 0;}
+    .stepSpan{
+        text-align: left;  width: 1000px; margin:4% 0 0 9%;
+        p{text-align: left;  width: 1000px;     margin: 15px 0 45px 0;}
+    }
+    // .ivu-table-wrapper{height:414px !important;}
+}
+/***********************   数据分析样式   ***************************************/
+.list_fenxi{
+    .btns{margin: 30px 0 0 55%;}
+    .treeCard{ margin: 6% 12%;box-shadow: 0px 0px 14px 2px #ececec;text-align: left;padding-left:2%}
+    //.ivu-table-wrapper { width: 1155px; margin-left: 45px; margin-top: 28px;} 
+}
+//新增模型 
+.newmoxing {
+ width: 100%; height: calc(~"100vh - 127px");
+.mypanelContainer { width: 100%; height: calc(~"100% - 29px");}
+}
+.myFlowchart { position: absolute;top: 0; right: 0;bottom: 0;left: 0;   }
+
+/***********************   数据中台样式   ***************************************/
+.list_zhongtai{
+    .moxing {
+        color: #000000;margin-top: 30px; margin-left: 42px; 
+        .sel{width:200px;margin-left:17px;margin-right:20px;}
+    }
+    .btns{margin-left:13%;}
+}
+.spanModal{  
+    .spanCol{
+        margin-top:20px;
+        span{float:left;margin-right:20px;margin-left:10px;line-height: 32px;}
+        .ivu-select,.ivu-input-number,{width:350px;}
+        .ivu-input-number{text-align: center}
+    }
+}
+.spanModal1{
+    .spanCol{
+        margin-top:20px;
+            span{float:left;margin-right:20px;margin-left:10px;line-height: 32px;}
+            .ivu-select,.ivu-input-number,{width:350px;}
+            .ivu-input-number{text-align: center}
+            .ivu-input-wrapper{width:350px;}
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
